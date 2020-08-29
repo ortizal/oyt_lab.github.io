@@ -1,0 +1,19 @@
+body{
+    background: rgba(172, 255, 255, 0.637);
+}
+header h1, .subtitulo{
+    text-align: center;
+}
+header{
+    margin-top:1em;
+    border:rebeccapurple 2px solid;
+    border-radius:20px;
+}
+form{
+    /* border:rebeccapurple 2px solid; */
+    width:70%;
+    margin: 5em auto;
+}
+form div{
+    margin:1em auto;
+}
