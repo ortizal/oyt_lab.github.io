@@ -17,3 +17,12 @@ form{
 form div{
     margin:1em auto;
 }
+.formHeader {
+    text-align: center;
+}
+.formHeader div input, .bact-txt{
+    border:0;
+    background-color: transparent;
+    outline: none;
+    border-bottom: black 1px solid;
+}
