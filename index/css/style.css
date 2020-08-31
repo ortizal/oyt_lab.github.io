@@ -8,6 +8,7 @@ header{
     margin-top:1em;
     border:rebeccapurple 2px solid;
     border-radius:20px;
+    background-color: rgba(230, 203, 255, 0.39);
 }
 form{
     /* border:rebeccapurple 2px solid; */
