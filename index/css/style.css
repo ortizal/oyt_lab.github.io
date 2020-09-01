@@ -27,3 +27,7 @@ form div{
     outline: none;
     border-bottom: black 1px solid;
 }
+.firstForm{
+    border: rebeccapurple 1px solid;
+    border-radius: 20px;
+}
