@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    $("#enviar").click(function(){
+        cheked();
+    })    
 /*     $.ajax({
         type:'POST',
         url:'../php/clases.php'
@@ -21,3 +24,18 @@ $(document).ready(function(){
             $('#categoria').html(re);
         }
     }); */
+
+var cheked = function(){
+    var selected='';
+    $('#solicitudFormulario input[type=checkbox').each(function(){
+        if (this.checked){
+            selected+=$(this).val()+" - ";
+        }
+    });
+    if(selected != ''){
+        alert ('Has seleccionado: '+ selected);
+    }else{
+        alert('Debes seleccionar al menos una opcion.');
+    }
+
+}
