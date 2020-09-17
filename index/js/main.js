@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $("#enviar").click(function(){
         cheked();
-    })    
-/*     $.ajax({
+    });    
+    /*     $.ajax({
         type:'POST',
         url:'../php/clases.php'
     })
@@ -12,11 +12,12 @@ $(document).ready(function(){
     .fail(function(){
         alert("Error en la salida de las clases");
     }); */
-
-
-})
-
-
+    
+});
+$('#continuar').click(function(){
+    var datosFormulario = $('#datosFormulario').serialize();
+    alert (datosFormulario);
+});  
 /*     $.ajax({
         type:'POST',
         url:'../php/subclases.php',
@@ -38,4 +39,6 @@ var cheked = function(){
         alert('Debes seleccionar al menos una opcion.');
     }
 
-}
+};
+
+
