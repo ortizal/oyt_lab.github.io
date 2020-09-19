@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $("#enviar").click(function(){
+        datos();
         cheked();
+
     });    
     /*     $.ajax({
         type:'POST',
@@ -15,8 +17,7 @@ $(document).ready(function(){
     
 });
 $('#continuar').click(function(){
-    var datosFormulario = $('#datosFormulario').serialize();
-    alert (datosFormulario);
+
 });  
 /*     $.ajax({
         type:'POST',
@@ -25,8 +26,13 @@ $('#continuar').click(function(){
             $('#categoria').html(re);
         }
     }); */
-
+var datos = function(){
+    var datosFormulario = $('#datosFormulario').serialize();
+    alert (datosFormulario);
+}
 var cheked = function(){
+    var formSolicitud = $("#solicitudFormulario input[type=text]").serialize();
+    alert (formSolicitud);
     var selected='';
     $('#solicitudFormulario input[type=checkbox').each(function(){
         if (this.checked){

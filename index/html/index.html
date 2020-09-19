@@ -23,7 +23,7 @@
                                 <h3>Nombre</h3>
                             </label>
                             <br>
-                            <input type="text" placeholder="NOMBRE" id="nombre">
+                            <input type="text" placeholder="NOMBRE" id="nombre" name="nombre">
     
                         </div>
                         <div class="col-sm">
@@ -31,14 +31,14 @@
                                 <h3>Fecha de Nacimiento</h3>
                             </label>
                             <br>
-                            <input type="date" placeholder="dd/mm/aaaa" id="fecha">
+                            <input type="date" placeholder="dd/mm/aaaa" id="fecha" name="fechaNacimiento">
                         </div>
                         <div class="col-sm">
                             <label for="nombre">
                                 <h3>Cédula</h3>
                             </label>
                             <br>
-                            <input type="text" placeholder="CEDULA" id="edad">
+                            <input type="text" placeholder="CEDULA" id="edad" name="cedula">
                         </div>
                     </div>
                     <div class="formHeader row">
@@ -47,25 +47,22 @@
                                 <h3>Médico</h3>
                             </label>
                             <br>
-                            <input type="text" placeholder="MÉDICO" id="medico">
+                            <input type="text" placeholder="MÉDICO" id="medico" name="medico">
                         </div>
                         <div class="col-sm">
                             <label for="lugar">
                                 <h3>Lugar</h3>
                             </label>
                             <br>
-                            <input type="text" placeholder="LUGAR" id="lugar">
+                            <input type="text" placeholder="LUGAR" id="lugar" name="lugar">
                         </div>
                         <div class="col-sm">
                             <label for="fecha">
                                 <h3>Fecha de exámen</h3>
                             </label>
                             <br>
-                            <input type="date" placeholder="dd/mm/aaaa" id="fecha"> 
+                            <input type="date" placeholder="dd/mm/aaaa" id="fecha" name="fechaExamen"> 
                         </div>
-                    </div>
-                    <div class="col-sm">
-                        <input type="submit" value="Continuar" id="continuar" class="btn">
                     </div>
                 </div>
             </form>
@@ -385,13 +382,13 @@
                             <label for="bacteriologia1">
                                 <input type="checkbox" name="bacteriologia1" id="bacteriologia1" value="Fresco y Gam de:"> 
                                 Fresco y Gam de: 
-                                <input type="text" class="bact-txt">
+                                <input type="text" name="frescoGam" class="bact-txt">
                             </label> 
                             <br>
                             <label for="bacteriologia2">
                                 <input type="checkbox" name="bacteriologia2" id="bacteriologia2" value="Cultivo y antibiograma de:"> 
                                 Cultivo y antibiograma de:
-                                <input type="text" class="bact-txt">
+                                <input type="text" name="cultivoAntibiograma" class="bact-txt">
                             </label> 
                             <br>
                             <input type="checkbox" name="bacteriologia3" id="bacteriologia3" value="KOH">
